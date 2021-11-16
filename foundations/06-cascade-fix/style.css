@@ -2,21 +2,25 @@
 .small-para {
   color: hsl(0, 100%, 50%);
 }
-
+/*
 .small-para {
   font-size: 12px;
-}
+}*/
 
 .para {
   font-size: 22px;
 }
 
+.small-para {
+  font-size: 12px;
+}
+/*
 .confirm {
   background: green;
   color: white;
   font-size: 20px;
   font-weight: bold;
-} 
+} */
 
 .button {
   background-color: #ffc0cb;
@@ -24,12 +28,24 @@
   font-size: 20px;
 }
 
+.confirm {
+  background: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*
 .child {
   color: red;
   font-size: 14px;
-}
+}*/
 
 div.text {
   color: green;
   font-size: 28px;
+}
+
+.text.child {
+  color: red;
+  font-size: 14px;
 }
