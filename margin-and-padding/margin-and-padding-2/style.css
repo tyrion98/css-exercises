@@ -1,27 +1,40 @@
 body {
-  background: #eee;
+  background: #eee; /* Off white color */
   font-family: sans-serif;
 }
 
 .card {
   width: 400px;
-  background: #fff;
-  margin: 16px auto;
+  background: #fff; /* White color bg */
+  margin: 16px auto; /* Gives the top a margin of 16px and centers the card */
+  border: 8px solid white; /* gives the whole card a border of 8px */
 }
 
 .title {
-  background: #e3f4ff;
+  background: #e3f4ff; /* Light blue color */
+  font-size: 16px; /* Font size 16px */
+  margin-top: 0px; /* no margin */
+  margin-bottom: 8px; /* 8px gap between the content and button section */
+  padding: 8px; /* adds 8px between the title text and edge of the title section*/
 }
 
 .content {
-  background: #e3f4ff;
+  background: #e3f4ff; /* Light blue color */
+  margin-bottom: 8px; /* 8px gap between the content and button section */
+  padding: 16px 8px; /* Gives 16px spacing on top and bottom and 8px spacing on
+  the sides */
 }
 
 .button {
-  background: #e3f4ff;
+  background: #e3f4ff; /* Light blue color */
+  text-align: center; /* centers the text in the card(button section) */
+  padding: 8px; /* 8px padding */
 }
 
 button {
-  background: white;
-  border: 1px solid #eee;
+  display: block; /* puts the button on a new line */
+  background: white; /* White color bg */
+  border: 1px solid #eee; /* Off white color */
+  padding: 8px 24px; /* Adds space around the text in button */
+  margin: 0 auto; /* centers the button in the card */
 }
