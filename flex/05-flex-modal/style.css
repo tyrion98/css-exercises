@@ -17,6 +17,7 @@ body {
 
 .modal {
   background: white;
+  padding: 10px;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
@@ -33,6 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -46,6 +48,43 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.top-container {
+
+  display: flex;
+  gap: 15px;
+  margin-bottom: 0px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  max-width: 120%
+  justify-content: space-between;
+  gap: 5px;
+  padding-left: 10%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  max-width: 95%;
+
+}
+
+
+.header {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+
+.close-button {
+  margin-left: 120px;
 }
 
 button {
